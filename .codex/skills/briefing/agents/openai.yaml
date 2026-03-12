@@ -1,0 +1,4 @@
+interface:
+  display_name: "Briefing"
+  short_description: "Summarize last work and suggest next steps"
+  default_prompt: "Use $briefing to summarize the latest dev log context and suggest the best next steps."

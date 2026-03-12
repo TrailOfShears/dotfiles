@@ -1,0 +1,19 @@
+# Bootstrapped by new-project
+
+# Secrets and local environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/
+
+# Common caches and temp files
+.cache/
+tmp/
+temp/
+*.tmp

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Context"
+  short_description: "Create and refresh layered codex.md context"
+  default_prompt: "Use $codex-context to create or refresh layered codex.md context for this workspace."

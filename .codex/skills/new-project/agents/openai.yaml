@@ -1,0 +1,4 @@
+interface:
+  display_name: "New Project"
+  short_description: "Bootstrap a planned project safely"
+  default_prompt: "Use $new-project to inspect this directory and safely scaffold a new project from the planning material here."

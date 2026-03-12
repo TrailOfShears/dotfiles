@@ -1,0 +1,9 @@
+
+# Node and Bun
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+bun.lockb
+.turbo/
+.next/

@@ -1,0 +1,12 @@
+model = "gpt-5.4"
+model_reasoning_effort = "high"
+[windows]
+sandbox = "unelevated"
+
+[context_files]
+enabled = true
+dev_roots = ["C:\\Users\\Jlockwood\\dev"]
+filename = "codex.md"
+max_global_lines = 100
+max_project_lines = 300
+update_mode = "suggest_then_confirm"

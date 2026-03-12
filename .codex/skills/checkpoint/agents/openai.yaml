@@ -1,0 +1,4 @@
+interface:
+  display_name: "Checkpoint"
+  short_description: "Summarize work, update devlog, and push Git"
+  default_prompt: "Use $checkpoint to create a git checkpoint, update the dev log, and push the current branch."
