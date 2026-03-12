@@ -42,7 +42,7 @@ function Invoke-RobocopyMirror {
     )
 
     Ensure-Directory -Path $DestinationPath
-    $null = robocopy $SourcePath $DestinationPath /MIR /R:1 /W:1 /NFL /NDL /NJH /NJS /NP
+    $null = robocopy $SourcePath $DestinationPath /MIR /R:1 /W:1 /NFL /NDL /NJH /NJS /NP /XD __pycache__ /XF *.pyc
     if ($LASTEXITCODE -gt 7) {
         throw "robocopy failed with exit code $LASTEXITCODE"
     }
@@ -63,6 +63,10 @@ if (-not (Test-Path -LiteralPath $sourceSkills)) {
 }
 
 Invoke-RobocopyMirror -SourcePath $sourceSkills -DestinationPath $targetSkills
+Get-ChildItem -LiteralPath $targetSkills -Recurse -Directory -Filter "__pycache__" -ErrorAction SilentlyContinue |
+    Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+Get-ChildItem -LiteralPath $targetSkills -Recurse -File -Filter "*.pyc" -ErrorAction SilentlyContinue |
+    Remove-Item -Force -ErrorAction SilentlyContinue
 Copy-ManagedFile -SourcePath (Join-Path $SourceCodexHome "AGENTS.md") -DestinationPath (Join-Path $targetCodex "AGENTS.md")
 Copy-ManagedFile -SourcePath (Join-Path $SourceCodexHome "config.toml") -DestinationPath (Join-Path $targetCodex "config.toml")
 
