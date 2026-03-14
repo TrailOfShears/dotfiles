@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fooocus"
+  short_description: "High-quality SDXL image generation with simple prompts"
+  default_prompt: "Use $fooocus to generate a high-quality image from my prompt using Fooocus."

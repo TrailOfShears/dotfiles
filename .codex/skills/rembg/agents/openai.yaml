@@ -1,0 +1,4 @@
+interface:
+  display_name: "Background Remover"
+  short_description: "Remove image backgrounds with rembg (U2-Net AI)"
+  default_prompt: "Use $rembg to remove the background from the specified image and save the result as a transparent PNG."

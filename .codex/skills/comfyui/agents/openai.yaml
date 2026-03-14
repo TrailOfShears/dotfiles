@@ -1,0 +1,4 @@
+interface:
+  display_name: "ComfyUI"
+  short_description: "Node-based Stable Diffusion image generation via ComfyUI API"
+  default_prompt: "Use $comfyui to generate an image using the ComfyUI workflow API."

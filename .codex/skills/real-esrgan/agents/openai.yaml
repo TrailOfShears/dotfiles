@@ -1,0 +1,4 @@
+interface:
+  display_name: "Real-ESRGAN Upscaler"
+  short_description: "Upscale and enhance images with AI super-resolution"
+  default_prompt: "Use $real-esrgan to upscale the specified image to a higher resolution."

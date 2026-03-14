@@ -1,0 +1,4 @@
+interface:
+  display_name: "SVG Tracer"
+  short_description: "Vectorize raster images to SVG or generate SVG graphics programmatically"
+  default_prompt: "Use $svg-trace to convert the specified image to an SVG vector graphic or generate an SVG file."

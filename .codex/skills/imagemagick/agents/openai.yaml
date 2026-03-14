@@ -1,0 +1,4 @@
+interface:
+  display_name: "ImageMagick"
+  short_description: "Batch image processing, conversion, and effects via ImageMagick CLI"
+  default_prompt: "Use $imagemagick to process, convert, or manipulate images using ImageMagick's command-line tools."

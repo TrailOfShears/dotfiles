@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stable Diffusion"
+  short_description: "Generate images from text prompts using Stable Diffusion"
+  default_prompt: "Use $stable-diffusion to generate an image from my prompt using the available Stable Diffusion backend."

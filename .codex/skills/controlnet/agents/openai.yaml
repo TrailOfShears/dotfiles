@@ -1,0 +1,4 @@
+interface:
+  display_name: "ControlNet"
+  short_description: "Spatially-guided image generation (poses, edges, depth, sketches)"
+  default_prompt: "Use $controlnet to generate an image with structural guidance from a reference image or sketch."

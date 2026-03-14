@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pillow Image Editor"
+  short_description: "Edit and transform images with Python Pillow/PIL"
+  default_prompt: "Use $pillow-edit to edit, transform, or manipulate the specified image using Pillow."

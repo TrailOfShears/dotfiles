@@ -1,0 +1,4 @@
+interface:
+  display_name: "Color Palette"
+  short_description: "Extract and generate color palettes from images or seed colors"
+  default_prompt: "Use $color-palette to extract the dominant color palette from the specified image or generate a color scheme."
