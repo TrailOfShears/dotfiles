@@ -1,0 +1,4 @@
+interface:
+  display_name: "Style Transfer"
+  short_description: "Apply artistic styles to images using neural style transfer"
+  default_prompt: "Use $style-transfer to apply the style of a reference artwork onto the specified content image."

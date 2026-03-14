@@ -1,0 +1,4 @@
+interface:
+  display_name: "Background Remover (Video)"
+  short_description: "Remove backgrounds from images and video files"
+  default_prompt: "Use $backgroundremover to remove the background from the specified image or video file."

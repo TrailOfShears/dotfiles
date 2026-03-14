@@ -1,0 +1,4 @@
+interface:
+  display_name: "InvokeAI"
+  short_description: "Professional image generation with Flux, SDXL, and node workflows"
+  default_prompt: "Use $invokeai to generate an image using InvokeAI's professional workflow engine."
