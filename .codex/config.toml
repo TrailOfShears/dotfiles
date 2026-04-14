@@ -10,3 +10,6 @@ filename = "codex.md"
 max_global_lines = 100
 max_project_lines = 300
 update_mode = "suggest_then_confirm"
+
+[projects.'C:\Users\Jlockwood\dev\Caspio']
+trust_level = "trusted"
