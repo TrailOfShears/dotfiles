@@ -19,5 +19,19 @@ last_updated = "2026-04-24T13:50:11Z"
 source_type = "local"
 source = '\\?\C:\Users\Jlockwood\.codex\.tmp\bundled-marketplaces\openai-bundled'
 
+[marketplaces.openai-primary-runtime]
+last_updated = "2026-04-24T14:17:02Z"
+source_type = "local"
+source = '\\?\C:\Users\Jlockwood\.cache\codex-runtimes\codex-primary-runtime\plugins\openai-primary-runtime'
+
 [plugins."browser-use@openai-bundled"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
 enabled = true
