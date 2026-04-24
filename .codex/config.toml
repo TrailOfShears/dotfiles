@@ -13,3 +13,11 @@ update_mode = "suggest_then_confirm"
 
 [projects.'C:\Users\Jlockwood\dev\Caspio']
 trust_level = "trusted"
+
+[marketplaces.openai-bundled]
+last_updated = "2026-04-24T13:50:11Z"
+source_type = "local"
+source = '\\?\C:\Users\Jlockwood\.codex\.tmp\bundled-marketplaces\openai-bundled'
+
+[plugins."browser-use@openai-bundled"]
+enabled = true
