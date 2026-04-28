@@ -18,7 +18,7 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [marketplaces.openai-bundled]
-last_updated = "2026-04-27T13:46:24Z"
+last_updated = "2026-04-28T13:35:59Z"
 source_type = "local"
 source = '\\?\C:\Users\Jlockwood\.codex\.tmp\bundled-marketplaces\openai-bundled'
 
