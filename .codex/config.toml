@@ -1,5 +1,5 @@
-model = "gpt-5.5"
-model_reasoning_effort = "medium"
+model = "gpt-5.4"
+model_reasoning_effort = "high"
 [windows]
 sandbox = "unelevated"
 
@@ -14,13 +14,16 @@ update_mode = "suggest_then_confirm"
 [projects.'C:\Users\Jlockwood\dev\Caspio']
 trust_level = "trusted"
 
+[projects.'c:\users\jlockwood\dev']
+trust_level = "trusted"
+
 [marketplaces.openai-bundled]
-last_updated = "2026-04-24T13:50:11Z"
+last_updated = "2026-04-27T13:46:24Z"
 source_type = "local"
 source = '\\?\C:\Users\Jlockwood\.codex\.tmp\bundled-marketplaces\openai-bundled'
 
 [marketplaces.openai-primary-runtime]
-last_updated = "2026-04-24T14:17:02Z"
+last_updated = "2026-04-27T14:17:18Z"
 source_type = "local"
 source = '\\?\C:\Users\Jlockwood\.cache\codex-runtimes\codex-primary-runtime\plugins\openai-primary-runtime'
 
@@ -35,3 +38,9 @@ enabled = true
 
 [plugins."presentations@openai-primary-runtime"]
 enabled = true
+
+[tui.model_availability_nux]
+"gpt-5.5" = 1
+
+[notice]
+fast_default_opt_out = true
